@@ -1,0 +1,30 @@
+{
+  "name": "@sgsavu/io",
+  "description": "Simple subscriber-based implementation of network channels for fetch API.",
+  "version": "0.0.1",
+  "main": "./dist/index.js",
+  "module": "./dist/index.mjs",
+  "types": "./dist/index.d.ts",
+  "homepage": "https://github.com/sgsavu",
+  "repository": {
+    "url": "https://github.com/sgsavu/io"
+  },
+  "scripts": {
+    "build": "tsup",
+    "test": "vitest",
+    "lint": "tsc"
+  },
+  "keywords": [
+    "io",
+    "network",
+    "subscriber",
+    "channel"
+  ],
+  "author": "Jibreel Savu",
+  "license": "GPL-3.0-only",
+  "devDependencies": {
+    "tsup": "^8.2.4",
+    "typescript": "^5.5.4",
+    "vitest": "^2.0.5"
+  }
+}
